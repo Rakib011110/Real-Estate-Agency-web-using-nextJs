@@ -1,4 +1,5 @@
-import Banner from "./@pages/Banner/Banner";
+import Banner from "./@Homepages/Banner/Banner";
+import CountiesPage from "./@Homepages/CountiesPage/CountiesPage";
 
 export default function Home() {
   return (
@@ -6,6 +7,8 @@ export default function Home() {
       <div>
         <Banner />
       </div>
+
+      <CountiesPage />
     </div>
   );
 }
