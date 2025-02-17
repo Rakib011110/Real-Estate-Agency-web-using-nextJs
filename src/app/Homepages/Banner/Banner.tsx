@@ -22,10 +22,8 @@ export default function Banner() {
           backgroundImage:
             "url('https://s3-alpha-sig.figma.com/img/8cbe/59e0/78210bb6def98c76b53af705e4f2b254?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=T39iNDEyds4Am84EmHJr5lrL3KFaqoa-N~hAJLXdhwQtJUvJtgoKc0o6lE8VC0m9q4b~H9AU5vB~QjJXjkc5lHKdKckV4noCYLuunsmS~kWnMQ27XHzyDghKsCHofTDfVKrgHzQwIN3~HdZAqya2l0vA1ZbQan7iPEtP0-ksGqmH9bBU-RpnecMmnbMEWQxZimr2AbFN85GbHOcPfuWrQ145-MDwhy7DtZRxqL2RvxTu5WR8Gk3KpK0dd2FrOMZklYQolWbqADjM9wjbaauBz2imAy89FxCbI3XsxfG7VHQsLDCsTYv85e8s~V31wKaKKoCLWaj6JVOrahPAKH2Zfg__')",
         }}>
-        {/* Navbar at the top */}
         <Navbar />
 
-        {/* Centered content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
           <p className="text-sm md:text-lg">Real Estate Agency</p>
 
